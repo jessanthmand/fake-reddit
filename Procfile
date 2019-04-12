@@ -1,0 +1,1 @@
+web: gunicorn fake_reddit_project.wsgi --log-file -

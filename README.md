@@ -1,1 +1,1 @@
-<!-- Jessica, Mandy, and Anthony -->
+<!-- Jessica, Mandy, & Anthony -->

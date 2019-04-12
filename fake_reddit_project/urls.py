@@ -28,6 +28,9 @@ urlpatterns = [
 ]
 
 
+
+
+
 # from django.contrib import admin
 # from django.urls import path, include
 # from tunr import views as tunr_views

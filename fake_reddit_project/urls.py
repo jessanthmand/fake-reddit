@@ -21,23 +21,9 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', views.FrontendAppView.as_view()), #New URL for the index route
     path('accounts/', include('django.contrib.auth.urls')),
-    path('', include('fake_reddit.urls')),
+    # path('', include('fake_reddit.urls')),
     # path('accounts/signup/', tunr_views.sign_up, name='signup'),
 
-    # path('api/v1/', include('fake_reddit.urls')),
+    path('api/v1/', include('fake_reddit.urls')),
 ]
 
-
-
-
-
-# from django.contrib import admin
-# from django.urls import path, include
-# from tunr import views as tunr_views
-
-# urlpatterns = [
-#     path('admin/', admin.site.urls),
-#     path('', include('tunr.urls')),
-#     path('accounts/', include('django.contrib.auth.urls')),
-#     path('accounts/signup/', tunr_views.sign_up, name='signup'),
-# ]

@@ -7,7 +7,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Hey, this is no longer a logo</h1>
+        <h1>Fake Reddit (The Real Reddit)</h1>
+        {/* <Router>
+          <Switch>
+            <Routes></Routes>
+          </Switch>
+        </Router> */}
       </div>
     );
   }
